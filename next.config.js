@@ -10,11 +10,6 @@ const nextConfig = {
     domains: ["placeholder.svg"],
     unoptimized: true,
   },
-  // Add these configurations for GitHub Pages
-  output: "export",
-  trailingSlash: true,
-  basePath: "/my-portfolio",
-  assetPrefix: "/my-portfolio/",
 }
 
 module.exports = nextConfig
