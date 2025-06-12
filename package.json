@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && npx gh-pages -d out"
+    "deploy": "npm run build && touch out/.nojekyll && npx gh-pages -d out"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
@@ -56,7 +56,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.53.0",
     "eslint-config-next": "14.0.3",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
