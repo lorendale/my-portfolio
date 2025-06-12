@@ -7,8 +7,10 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+    domains: ["placeholder.svg"],
     unoptimized: true,
   },
+  // Add these configurations for GitHub Pages
   output: "export",
   trailingSlash: true,
   basePath: "/my-portfolio",
