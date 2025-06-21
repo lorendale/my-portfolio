@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion"
@@ -12,35 +10,35 @@ const projects = [
     title: "Web-Based Stress Level Assessment System",
     description:
       "A comprehensive capstone project that evaluates stress levels using data analysis and KNN algorithm. Features user-friendly interface for assessments and recommendations.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/stress-check.png?height=400&width=600",
     tags: ["HTML5", "CSS3", "JavaScript", "KNN Algorithm", "Data Analysis"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/itdcapstone/stress-check",
     featured: true,
     color: "#8155BA",
   },
   {
-    title: "E-Commerce System",
+    title: "Bluora - E-Commerce System",
     description:
-      "Full-stack e-commerce platform with product catalog, shopping cart, and admin dashboard. Built with Vue.js and Bootstrap for responsive design.",
-    image: "/placeholder.svg?height=400&width=600",
+      "E-commerce platform with product catalog, shopping cart, and admin dashboard. Built with Vue.js and Bootstrap for responsive design.",
+    image: "/bluora.png?height=400&width=600",
     tags: ["Vue.js", "Bootstrap", "JavaScript", "Responsive Design"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://github.com/lorendale/vue-final-project",
+    githubLink: "https://lorendale.github.io/vue-final-project/",
     featured: true,
     color: "#695E93",
   },
   {
-    title: "Portfolio Website",
-    description:
-      "Personal portfolio website showcasing my projects and skills as a frontend developer. Built with React and modern web technologies.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-    liveLink: "#",
-    githubLink: "#",
-    featured: true,
-    color: "#341948",
-  },
+  title: "TaskFlow",
+  description:
+    "Modern task management dashboard for teams and individuals. Features comprehensive project tracking, analytics, calendar views, and real-time task management with intuitive drag-and-drop functionality.",
+  image: "/tasflow.png?height=400&width=600",
+  tags: ["React", "JavaScript", "CSS3", "Recharts", "Local Storage", "Responsive Design"],
+  liveLink: "https://lorendale.github.io/taskflow/",
+  githubLink: "https://github.com/lorendale/taskflow",
+  featured: true,
+  color: "#dc9750",
+}
 ]
 
 export default function Projects() {
