@@ -1,3 +1,4 @@
+"use client"
 
 import { useEffect, useRef, useState } from "react"
 import { useTheme } from "@/components/theme-provider"
