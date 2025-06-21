@@ -48,7 +48,6 @@ export default function About() {
                   height={400}
                   className="object-cover w-full h-full"
                 />
-                  <div className="absolute inset-0 bg-gradient-to-tr from-purple-DEFAULT/20 to-transparent"></div>
                 </div>
               </div>
 
