@@ -42,7 +42,7 @@ export default function About() {
               <div className="absolute inset-0 bg-white dark:bg-purple-darker rounded-2xl overflow-hidden border-2 border-purple-light/30 dark:border-purple-dark/30 shadow-xl">
                 <div className="w-full h-full relative">
                  <Image
-                  src="/Dale.JPG"
+                  src="/public/Dale.JPG"
                   alt="Loren Dale Aleligay"
                   width={400}
                   height={400}

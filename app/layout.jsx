@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Portfolio | IT ",
+  title: "Portfolio | IT",
   description: "Personal portfolio showcasing my IT projects and skills",
 }
 
