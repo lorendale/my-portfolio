@@ -58,7 +58,6 @@ export default function Footer() {
             >
               <Heart className="w-4 h-4 text-red-500 fill-red-500" />
             </motion.div>
-            <span>using Next.js and Tailwind CSS</span>
           </motion.div>
         </div>
       </div>

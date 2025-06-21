@@ -224,7 +224,7 @@ export default function Hero() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="www.linkedin.com/in/loren-dale-aleligay-1a69a2346"
+                href="https://www.linkedin.com/in/loren-dale-aleligay-1a69a2346/"
                 className="text-muted-foreground hover:text-purple-bright dark:hover:text-purple-light transition-colors p-2 rounded-full hover:bg-purple-light/20 dark:hover:bg-purple-dark/30"
               >
                 <Linkedin className="w-5 h-5" />

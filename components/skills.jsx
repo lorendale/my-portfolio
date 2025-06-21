@@ -9,7 +9,7 @@ const skills = [
   {
     category: "Frontend",
     icon: <Layout className="w-6 h-6" />,
-    items: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Bootstrap"],
+    items: ["HTML5","JavaScript", "React", "Vue", "Tailwind CSS", "Bootstrap"],
     color: "from-purple-light to-purple-DEFAULT",
     proficiency: 85,
   },

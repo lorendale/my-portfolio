@@ -147,12 +147,16 @@ export default function Navbar() {
               >
                 {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
-              <Button className="ml-4 bg-purple-DEFAULT hover:bg-purple-bright text-white relative overflow-hidden group">
-                <a href="/resume.pdf" download="Loren_Dale_Aleligay_Resume.pdf" className="relative z-10">
-                  Resume
-                </a>
-                <span className="absolute inset-0 bg-purple-bright transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-              </Button>
+            <Button className="ml-4 bg-purple-DEFAULT hover:bg-purple-bright text-white relative overflow-hidden group">
+              <a
+                href="/Aleligay-Loren-Dale-Resume.pdf"
+                download="Aleligay-Loren-Dale-Resume.pdf"
+                className="relative z-10 block w-full h-full px-4 py-2 text-center"
+              >
+                Resume
+              </a>
+              <span className="absolute inset-0 bg-purple-bright transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+            </Button>
             </nav>
 
             {/* Mobile Menu Button */}
