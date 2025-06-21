@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion"
 import Image from "next/image"
