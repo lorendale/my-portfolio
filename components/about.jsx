@@ -42,12 +42,13 @@ export default function About() {
               <div className="absolute inset-0 bg-white dark:bg-purple-darker rounded-2xl overflow-hidden border-2 border-purple-light/30 dark:border-purple-dark/30 shadow-xl">
                 <div className="w-full h-full relative">
                  <Image
-                  src="/public/Dale.JPG"
+                  src="/Dale.JPG"
                   alt="Loren Dale Aleligay"
                   width={400}
                   height={400}
                   className="object-cover w-full h-full"
                 />
+                  <div className="absolute inset-0 bg-gradient-to-tr from-purple-DEFAULT/20 to-transparent"></div>
                 </div>
               </div>
 
