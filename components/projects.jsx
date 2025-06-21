@@ -14,7 +14,7 @@ const projects = [
       "A comprehensive capstone project that evaluates stress levels using data analysis and KNN algorithm. Features user-friendly interface for assessments and recommendations.",
     image: "/stress-check.png?height=400&width=600",
     tags: ["HTML5", "CSS3", "JavaScript", "KNN Algorithm", "Data Analysis"],
-    liveLink: "#",
+    liveLink: "https://drive.google.com/file/d/1vbZqj5sD-2yLBoxZhv1MJhC3p7Wk89-v/view?usp=sharing",
     githubLink: "https://github.com/itdcapstone/stress-check",
     featured: true,
     color: "#8155BA",
@@ -34,7 +34,7 @@ const projects = [
   title: "TaskFlow",
   description:
     "Modern task management dashboard for teams and individuals. Features comprehensive project tracking, analytics, calendar views, and real-time task management with intuitive drag-and-drop functionality.",
-  image: "/tasflow.png?height=400&width=600",
+  image: "/taskflow.png?height=400&width=600",
   tags: ["React", "JavaScript", "CSS3", "Recharts", "Local Storage", "Responsive Design"],
   liveLink: "https://lorendale.github.io/taskflow/",
   githubLink: "https://github.com/lorendale/taskflow",

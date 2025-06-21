@@ -30,7 +30,7 @@ const skills = [
   {
     category: "Tools & Workflow",
     icon: <Terminal className="w-6 h-6" />,
-    items: ["Git", "GitLab", "Jira", "Figma", "VS Code", "npm"],
+    items: ["Git", "GitLab", "Jira", "Figma", "VS Code"],
     color: "from-purple-dark to-purple-DEFAULT",
     proficiency: 80,
   },
