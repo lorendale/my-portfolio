@@ -185,6 +185,17 @@ export default function Skills() {
                 <p className="text-sm text-muted-foreground">Cisco Networking Academy • May 2025</p>
               </div>
             </div>
+             <div className="flex items-center gap-4 p-4 bg-purple-light/10 dark:bg-purple-dark/10 rounded-lg">
+              <div className="w-12 h-12 bg-purple-bright rounded-lg flex items-center justify-center text-white font-bold">
+                UX
+              </div>
+              <div>
+                <h4 className="font-semibold text-purple-DEFAULT dark:text-purple-light">
+                  Developing Designs for User Experience
+                </h4>
+                <p className="text-sm text-muted-foreground">TESDA • June 2025</p>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

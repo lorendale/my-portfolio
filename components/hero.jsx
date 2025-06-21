@@ -89,6 +89,17 @@ export default function Hero() {
 
   const roles = ["Frontend Developer", "React Developer", "IT Graduate", "Web Developer"]
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const offsetTop = element.offsetTop - 80; // Account for fixed navbar height
+      window.scrollTo({
+        top: offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveRole((prev) => (prev + 1) % roles.length)
@@ -177,10 +188,16 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              <Button className="bg-purple-DEFAULT hover:bg-purple-bright text-white">View My Work</Button>
+              <Button 
+                className="bg-purple-DEFAULT hover:bg-purple-bright text-white"
+                onClick={() => scrollToSection("projects")}
+              >
+                View My Work
+              </Button>
               <Button
                 variant="outline"
-                className="border-purple-DEFAULT text-purple-DEFAULT hover:bg-purple-DEFAULT hover:text-white dark:border-purple-light dark:text-purple-light dark:hover:bg-purple-light dark:hover:text-purple-darkest"
+                className="border-purple-DEFAULT text-purple-DEFAULT hover:bg-purple-DEFAULT/10 hover:text-purple-DEFAULT dark:border-purple-light dark:text-purple-light dark:hover:bg-purple-light/10 dark:hover:text-purple-light"
+                onClick={() => scrollToSection("contact")}
               >
                 Contact Me
               </Button>
@@ -200,14 +217,14 @@ export default function Hero() {
                 <span className="sr-only">Email</span>
               </a>
               <a
-                href="#"
+                href="https://github.com/lorendale"
                 className="text-muted-foreground hover:text-purple-bright dark:hover:text-purple-light transition-colors p-2 rounded-full hover:bg-purple-light/20 dark:hover:bg-purple-dark/30"
               >
                 <Github className="w-5 h-5" />
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="#"
+                href="www.linkedin.com/in/loren-dale-aleligay-1a69a2346"
                 className="text-muted-foreground hover:text-purple-bright dark:hover:text-purple-light transition-colors p-2 rounded-full hover:bg-purple-light/20 dark:hover:bg-purple-dark/30"
               >
                 <Linkedin className="w-5 h-5" />

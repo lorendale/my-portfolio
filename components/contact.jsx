@@ -156,14 +156,14 @@ export default function Contact() {
                 <h4 className="font-medium text-purple-DEFAULT dark:text-purple-light mb-4">Connect with me</h4>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/lorendale"
                     className="w-10 h-10 rounded-full bg-purple-light/30 dark:bg-purple-dark/30 flex items-center justify-center text-purple-DEFAULT dark:text-purple-light hover:bg-purple-DEFAULT hover:text-white dark:hover:bg-purple-light dark:hover:text-purple-darkest transition-colors duration-300"
                     aria-label="GitHub"
                   >
                     <Github className="w-5 h-5" />
                   </a>
                   <a
-                    href="#"
+                    href="www.linkedin.com/in/loren-dale-aleligay-1a69a2346"
                     className="w-10 h-10 rounded-full bg-purple-light/30 dark:bg-purple-dark/30 flex items-center justify-center text-purple-DEFAULT dark:text-purple-light hover:bg-purple-DEFAULT hover:text-white dark:hover:bg-purple-light dark:hover:text-purple-darkest transition-colors duration-300"
                     aria-label="LinkedIn"
                   >
