@@ -14,12 +14,12 @@ const experiences = [
     date: "February 2025 - April 2025",
     description:
       "Gained hands-on experience in frontend development, working with React and modern web technologies. Integrated RESTful APIs and implemented efficient state management solutions.",
-    link: "#",
     details: [
-      "Integrated RESTful APIs for CRUD operations across multiple modules",
-      "Implemented Context API for efficient state management",
-      "Created reusable components based on Figma design specifications",
-      "Optimized API calls to improve overall application performance",
+      "Developed and implemented responsive UI components for a web-based platform, focusing on user experience and design consistency.",
+      "Collaborated with backend developers to integrate APIs, ensuring seamless data flow and functionality.",
+      "Participated in daily stand-up meetings, providing updates on task progress and addressing technical challenges.",
+      "Resolved merge conflicts and managed version control using GitLab, maintaining clean and organized codebases.",
+      "Assisted in debugging and optimizing frontend performance, enhancing overall application efficiency.",
     ],
   },
   {
@@ -29,13 +29,12 @@ const experiences = [
     location: "Cabuyao, Laguna",
     date: "2024 - May 2025",
     description:
-      "Developed a comprehensive system for stress level evaluation using data analysis and machine learning. Led the frontend development using modern web technologies.",
-    link: "#",
+      "Developed a comprehensive system for stress level evaluation using data analysis and machine learning. Led the frontend development.",
     details: [
-      "Developed system utilizing data analysis for stress level evaluation",
-      "Implemented frontend using HTML, CSS, and JavaScript",
-      "Integrated KNN algorithm for stress level prediction",
-      "Designed user-friendly interface for assessment, results, and recommendations",
+      "Designed and developed a responsive web interface for stress assessment, ensuring accessibility across devices.",
+      "Implemented data analysis algorithms (KNN) to predict stress levels with 93.65% accuracy, surpassing comparable studies.",
+      "Integrated MongoDB for secure data storage and retrieval, maintaining user privacy and system reliability.",
+      "Designed user-friendly interface for assessment, results, and recommendations.",
     ],
   },
   {
@@ -45,29 +44,13 @@ const experiences = [
     location: "Cabuyao, Laguna",
     date: "2024 - May 2025",
     description:
-      "Developed a full-stack e-commerce system using Vue.js and Bootstrap. Created responsive UI components with comprehensive product management features.",
-    link: "#",
+      "Developed a frontend e-commerce system using Vue.js and Bootstrap. Created responsive UI components with comprehensive product management features.",
     details: [
-      "Developed frontend of full-stack e-commerce system using Vue.js and Bootstrap",
-      "Implemented product catalog, shopping cart, and admin dashboard interfaces",
-      "Created responsive UI components with product filtering and sorting functionality",
-      "Collaborated with team members on system architecture and design",
-    ],
-  },
-  {
-    type: "education",
-    title: "Bachelor of Science in Information Technology",
-    organization: "University of Cabuyao",
-    location: "Cabuyao, Laguna",
-    date: "2021 - Present",
-    description:
-      "Pursuing a comprehensive IT education with focus on web development, software engineering, and modern programming practices. Maintaining strong academic performance.",
-    link: "#",
-    details: [
-      "Focused on web development and software engineering",
-      "Completed coursework in Data Structures, Algorithms, and Database Systems",
-      "Participated in various programming projects and assignments",
-      "Developed strong foundation in computer science principles",
+      "Built a responsive shopping platform using Vue.js with user authentication, product browsing, and shopping cart functionality.",
+      "Implemented role-based access control separating customer and admin interfaces with different navigation and feature sets.",
+      "Created comprehensive product management system allowing administrators to add, edit, and monitor inventory with real-time stock tracking.",
+      "Developed interactive shopping experience with product search, filtering, quantity selection, and order history for customers.",
+      "Designed mobile-first responsive interface using Bootstrap and custom CSS with smooth animations and intuitive user flows.",
     ],
   },
 ]

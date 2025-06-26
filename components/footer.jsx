@@ -20,44 +20,8 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Loren Dale Aleligay. All rights reserved.
+              &copy; {currentYear} Loren Dale F. Aleligay. All rights reserved.
             </p>
-          </motion.div>
-
-          <motion.div
-            className="flex items-center gap-1 text-sm text-muted-foreground"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            onHoverStart={() => setIsHovered(true)}
-            onHoverEnd={() => setIsHovered(false)}
-          >
-            <span>Made with</span>
-            <motion.div
-              animate={
-                isHovered
-                  ? {
-                      scale: [1, 1.3, 1],
-                    }
-                  : {
-                      scale: [1, 1.1, 1],
-                    }
-              }
-              transition={
-                isHovered
-                  ? {
-                      duration: 0.5,
-                    }
-                  : {
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                      ease: "easeInOut",
-                    }
-              }
-            >
-              <Heart className="w-4 h-4 text-red-500 fill-red-500" />
-            </motion.div>
           </motion.div>
         </div>
       </div>
