@@ -60,24 +60,46 @@ export default function Contact() {
   }
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+  e.preventDefault();
 
-    if (!validateForm()) {
-      return
-    }
-
-    setIsSubmitting(true)
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-
-    setIsSubmitting(false)
-    setSubmitted(true)
-    setFormData({ name: "", email: "", subject: "", message: "" })
-
-    // Reset success message after 5 seconds
-    setTimeout(() => setSubmitted(false), 5000)
+  if (!validateForm()) {
+    return;
   }
+
+  setIsSubmitting(true);
+
+  try {
+    const response = await fetch("https://formspree.io/f/xpwrbllk", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      }),
+    });
+
+    if (response.ok) {
+      setSubmitted(true);
+      setFormData({ name: "", email: "", subject: "", message: "" });
+      setTimeout(() => setSubmitted(false), 5000);
+    } else {
+      const data = await response.json();
+      console.error(data);
+      alert("Failed to send message. Please try again.");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+    alert("Something went wrong. Please try again.");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section id="contact" className="relative py-24 overflow-hidden">
